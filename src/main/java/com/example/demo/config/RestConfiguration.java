@@ -15,5 +15,8 @@ public class RestConfiguration extends RepositoryRestConfigurerAdapter{
 		// TODO Auto-generated method stub
 		config.exposeIdsFor(Person.class,
 							Phone.class);
+		
+		
 	}
+	
 }
